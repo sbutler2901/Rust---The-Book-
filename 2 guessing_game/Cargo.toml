@@ -1,0 +1,8 @@
+[package]
+name = "guessing_game"
+version = "0.1.0"
+authors = ["scbutle2 <scbutle2@ncsu.edu>"]
+
+[dependencies]
+# "*" = latest version, "0.3.0" = any version compatible with this one, "=0.3.0" nly this verision
+rand="*" 

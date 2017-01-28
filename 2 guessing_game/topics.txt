@@ -1,0 +1,22 @@
+1. Cargo run/build/upgrade
+	a. .toml : defines requirements and other attributes of project
+	b. .lock : keeps dependencies at build version originally specified. If a dependency upgrades it will not be used until specified in .toml and rebuilt.
+	c. upgrade : ex. "0.3.0" specifed in .toml (anything compatible with this version), build used v0.3.8, and v0.3.9 available will upgrade build to v0.3.9, but not v0.4.0 even if it is available
+2. preludes
+3. Variables 
+	a. mutable
+	b. immutable
+	c. Shadow : replace/change type of variable by creating a new one with same name
+	d. explicit type declaration
+4. References (mutable/immutable) 
+5. Object:
+	a. New
+	b. associated functions (static)
+	c. regular methods
+6. Results (error detection)
+7. Crates (package of Rust code)
+	a. Library crate (code intended to be used with other programs)
+	b. dependencies in Cargo.toml
+8. match 
+9. loop
+10. Error recovery

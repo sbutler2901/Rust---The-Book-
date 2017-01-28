@@ -1,0 +1,6 @@
+A. Install
+	1. brew install rust
+	2. verify: rustc --version
+
+B. Create Cargo project:
+	1. cargo new <hello_world> --bin
